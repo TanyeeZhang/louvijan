@@ -7,6 +7,8 @@
 ## louvijan
 **louvijan** is a tool to control the script pipeline (not limited to Python scripts), which means that scripts can be executed in a specified order. In addition, it is recommended because it is lightweight, fast and easy to use.
 
+Why does it have this strange name? Because it is similar to the pronunciation "liúshuǐxiàn" of pipeline in Chinese.
+
 ## Installation
 You can install `louvijan` with `pip`:
 
