@@ -1,7 +1,6 @@
 # coding=utf-8
 """example.py - This file is used as an example.
 """
-import louvijan
 from louvijan import PipeLine
 from louvijan import Config
 
