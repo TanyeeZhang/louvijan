@@ -63,7 +63,7 @@ receivers = one@qq.com, two@qq.com, three@qq.com
 send_mail_flag = always
 ```
 
-You can execute the following statement to generate a configuration file template:
+You can execute the following statement to generate a configuration template file:
 
 ```python
 from louvijan import Config
