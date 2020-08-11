@@ -6,13 +6,12 @@ import traceback
 from concurrent.futures.thread import ThreadPoolExecutor
 from concurrent.futures import as_completed
 from queue import Queue
-from louvijan.manager.config import Config
-from louvijan.manager.log import LogManager
-from louvijan.manager.remote import RemoteManager
-from louvijan.manager.mail import EMailManager
-from louvijan.manager.execution import ExecutionManager
+from .manager.config import Config
+from .manager.log import LogManager
+from .manager.remote import RemoteManager
+from .manager.mail import EMailManager
+from .manager.execution import ExecutionManager
 from typing import List, Union, Tuple, Callable
-from datetime import datetime
 
 
 class PipeLine:

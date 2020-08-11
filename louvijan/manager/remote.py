@@ -2,9 +2,9 @@
 """remote.py - This module provides classes for remote servers.
 """
 import paramiko
-from louvijan.manager.config import Config
-from louvijan.manager.base import PluginManager
-from louvijan.manager.log import LogManager
+from .config import Config
+from .base import PluginManager
+from .log import LogManager
 
 
 class RemoteManager(PluginManager):

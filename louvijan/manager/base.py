@@ -1,7 +1,7 @@
 # coding=utf-8
 """base.py - Definition of base classes.
 """
-from louvijan.manager.config import Config
+from .config import Config
 from typing import Union
 
 

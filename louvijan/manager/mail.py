@@ -6,8 +6,8 @@ import traceback
 from email.header import Header
 from email.mime.text import MIMEText
 
-from louvijan.manager.config import Config
-from louvijan.manager.base import PluginManager
+from .config import Config
+from .base import PluginManager
 import threading
 from typing import List
 

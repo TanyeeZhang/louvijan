@@ -5,9 +5,9 @@ import os
 import sys
 import signal
 import subprocess
-from louvijan.manager.config import Config
-from louvijan.manager.base import PluginManager
-from louvijan.manager.log import LogManager
+from .config import Config
+from .base import PluginManager
+from .log import LogManager
 
 
 class ExecutionManager(PluginManager):
@@ -34,6 +34,8 @@ class ExecutionManager(PluginManager):
             with open(log_manager.path, 'a') as log:
                 # The child process calls the system command and prints the error message to a log file.
                 ret = subprocess.call(command, shell=True, stdout=log, stderr=log)
+                print(command)
+                print('call', ret)
         else:
             ret = subprocess.call(command, shell=True)
 

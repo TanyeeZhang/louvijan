@@ -4,4 +4,4 @@ from .manager.config import Config
 
 __author__ = 'Tanyee Zhang'
 
-__version__ = '0.1.0'
+__version__ = '0.1.3'

@@ -3,8 +3,8 @@
 """
 import logging
 from logging.handlers import RotatingFileHandler
-from louvijan.manager.base import PluginManager
-from louvijan.manager.config import Config
+from .base import PluginManager
+from .config import Config
 
 
 class LogManager(PluginManager):
