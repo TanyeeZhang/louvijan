@@ -1,0 +1,45 @@
+Hello, louvijan!
+Traceback (most recent call last):
+  File "a.py", line 4, in <module>
+    print(1/0)
+ZeroDivisionError: division by zero
+2020-08-11 16:37:04,731 - ERROR - C:\Users\Tanyee\Anaconda3\python.exe a.py
+Run Failed.
+
+16:37:05: Main    : before creating thread
+16:37:05: Main    : before running thread
+16:37:05: Thread 1: starting
+16:37:05: Main    : wait for the thread to finish
+16:37:05: Main    : all done
+16:37:07: Thread 1: finishing
+2020-08-11 16:37:07,116 - INFO - C:\Users\Tanyee\Anaconda3\python.exe b.py
+Run successfully and cost 2.384700298309326 seconds.
+
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81
+400
+32936
+[32936, 32936, 32936, 32936]
+2020-08-11 16:37:09,439 - INFO - C:\Users\Tanyee\Anaconda3\python.exe c.py
+Run successfully and cost 2.322666645050049 seconds.
+
+16:37:09: Main    : before creating thread
+16:37:09: Main    : before running thread
+16:37:09: Thread 1: starting
+16:37:09: Main    : wait for the thread to finish
+16:37:09: Main    : all done
+16:37:11: Thread 1: finishing
+2020-08-11 16:37:11,841 - INFO - C:\Users\Tanyee\Anaconda3\python.exe b.py
+Run successfully and cost 2.4006247520446777 seconds.
+
+2020-08-11 16:37:11,841 - INFO - Execution succeeded in Tanyee.
+This Task costs 4.72 seconds in total.
