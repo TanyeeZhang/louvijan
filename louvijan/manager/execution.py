@@ -34,8 +34,6 @@ class ExecutionManager(PluginManager):
             with open(log_manager.path, 'a') as log:
                 # The child process calls the system command and prints the error message to a log file.
                 ret = subprocess.call(command, shell=True, stdout=log, stderr=log)
-                print(command)
-                print('call', ret)
         else:
             ret = subprocess.call(command, shell=True)
 
