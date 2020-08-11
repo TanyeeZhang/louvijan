@@ -36,6 +36,8 @@ from louvijan import PipeLine
 PipeLine('A', ['B', 'C', 'D'], ['E', 'F'], 'G')()
 ```
 
+In practice, of course, the **absolute path** is strongly recommended.
+
 If you want to execute B, C, D on a remote server, you can create a new configuration file `remote.conf`:
 
 ```sh
