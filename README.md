@@ -16,6 +16,7 @@ pip install louvijan
 
 ## Examples
 In one word, easy to use! After reading, please show your thumb.
+
 If you have a series of scripts that need to be executed in a certain order, as shown in the figure:
 
 <div align="center">
@@ -71,5 +72,7 @@ Config().template()
 ```
 
 By setting the configuration file and multiple nested PipeLine, you can construct a variety of complex pipeline projects.
+
+Moreover, it can print the information during the scripts running to the log file.
 
 For more details, see `example.py`.
