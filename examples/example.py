@@ -7,6 +7,10 @@ from louvijan import Config
 #  Output configuration template
 # Config().template()
 
+# NOTE
+# Absolute paths are strongly recommended
+PipeLine('D:\\louvijan\\examples\\load.py')()
+
 # Execute in serial
 PipeLine(
     'a.py', 'b.py', 'c.py'
