@@ -79,4 +79,4 @@ By setting the configuration file and multiple nested PipeLine, you can construc
 
 Moreover, it can print the information during the scripts running to the log file.
 
-For more details, please see [here](https://github.com/TanyeeZhang/louvijan/tree/master/louvijan/examples).
+For more details, please see [here](https://github.com/TanyeeZhang/louvijan/tree/master/examples).
