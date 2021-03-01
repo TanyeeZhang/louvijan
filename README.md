@@ -51,7 +51,7 @@ password = 123456
 This is the case with louvijan:
 
 ```python
-PipeLine('A', Python(['B', 'C', 'D'], config='remote.conf'), ['E', 'F'], 'G')()
+PipeLine('A', PipeLine(['B', 'C', 'D'], config='remote.conf'), ['E', 'F'], 'G')()
 ```
 
 
